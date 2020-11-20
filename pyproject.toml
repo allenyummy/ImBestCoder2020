@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "imbestcoder2020"
+version = "0.1.0"
+description = ""
+authors = ["Yu-Lun Chiang <chiangyulun0914@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pandas = "^1.1.4"
+xlrd = "^1.2.0"
+openpyxl = "^3.0.4"
+scikit-learn = "^0.23.2"
+matplotlib = "^3.3.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
