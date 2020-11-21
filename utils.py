@@ -2,9 +2,14 @@ import pandas as pd
 from typing import List, Tuple, TextIO
 
 
-def read(datafile: TextIO):
+def read():
+    purchase_detail = pd.read_csv("data/purchase_detail.csv")
+    user_info = pd.read_csv("data/user_info.csv")
+    login = pd.read_csv("data/login.csv")
+    user_label = pd.read_csv("data/user_label_train.csv")
+    submission = pd.read_csv("data/submission.csv")
 
-    return data
+    return purchase_detail, user_info, login, user_label, submission
 
 
 def analyze(data) -> List[List[int]]:
@@ -14,8 +19,8 @@ def analyze(data) -> List[List[int]]:
 
 def output(data: List[List[int]]):
     
-    upload_cols = ["A", "B", "C"]
-    upload_rows_len = 2
+    upload_cols = ["userid", "label"]
+    upload_rows_len = 75325
     assert len(data) == upload_rows_len
     assert len(data[0]) == len(upload_cols)
 

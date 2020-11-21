@@ -1,7 +1,9 @@
 import pandas as pd
 from utils import read, output
 
+detail, info, login, label, sub = read()
 
-data = [[1,2,3], [1,2,3]]
-results = output(data)
-results.to_csv("output/demo.csv", index=False)
+print (detail.head())
+
+
+# results.to_csv("output/demo.csv", index=False)
