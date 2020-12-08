@@ -4,13 +4,13 @@ from typing import List, Tuple, TextIO
 
 def read():
     purchase_detail = pd.read_csv("data/purchase_detail.csv")
-    user_info = pd.read_csv("data/user_info.csv")
-    login = pd.read_csv("data/login.csv")
-    user_label = pd.read_csv("data/user_label_train.csv")
-    submission = pd.read_csv("data/submission.csv")
+    # user_info = pd.read_csv("data/user_info.csv")
+    # login = pd.read_csv("data/login.csv")
+    # user_label = pd.read_csv("data/user_label_train.csv")
+    # submission = pd.read_csv("data/submission.csv")
 
-    return purchase_detail, user_info, login, user_label, submission
-
+    # return purchase_detail, user_info, login, user_label, submission
+    return purchase_detail
 
 def analyze(data) -> List[List[int]]:
 
