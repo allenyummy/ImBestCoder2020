@@ -1,0 +1,32 @@
+20210302 17:17:20 DEBUG: db exists!
+20210302 17:17:20 DEBUG: Finish CRUD temp view!
+20210302 17:17:32 DEBUG: Finish join purchase detail and training label!
+20210302 17:17:32 DEBUG: Finish data spliting
+20210302 17:17:34 DEBUG: Finish training with validation acc 0.6545778277574735
+20210302 17:17:45 DEBUG: Finish test data loading
+20210302 17:17:45 DEBUG: Finish concat id and predicting results
+20210302 17:17:45 DEBUG: Finish output to csv format and return this program
+20210302 17:19:20 DEBUG: db exists!
+20210302 17:19:20 DEBUG: Finish CRUD temp view!
+20210302 17:19:33 DEBUG: Finish join purchase detail and training label!
+20210302 17:19:33 DEBUG: Finish data spliting
+20210302 17:19:35 DEBUG: Finish training with validation acc 0.6545778277574735
+20210302 17:19:45 DEBUG: Finish test data loading
+20210302 17:19:45 DEBUG: Finish concat id and predicting results
+20210302 17:19:45 DEBUG: Finish output to csv format and return this program
+20210302 17:26:07 DEBUG: db exists!
+20210302 17:26:07 DEBUG: Finish CRUD temp view!
+20210302 17:26:18 DEBUG: Finish join purchase detail and training label!
+20210302 17:26:19 DEBUG: Finish data spliting
+20210302 17:26:21 DEBUG: Finish training with validation acc 0.6545778277574735
+20210302 17:26:30 DEBUG: Finish test data loading
+20210302 17:26:30 DEBUG: Finish concat id and predicting results
+20210302 17:26:31 DEBUG: Finish output to csv format and return this program
+20210302 17:38:56 DEBUG: db exists!
+20210302 17:38:56 DEBUG: Finish CRUD temp view!
+20210302 17:39:09 DEBUG: Finish join purchase detail and training label!
+20210302 17:39:09 DEBUG: Finish data spliting
+20210302 17:39:11 DEBUG: Finish training with validation acc 0.6545778277574735
+20210302 17:39:21 DEBUG: Finish test data loading
+20210302 17:39:21 DEBUG: Finish concat id and predicting results
+20210302 17:39:21 DEBUG: Finish output to csv format and return this program

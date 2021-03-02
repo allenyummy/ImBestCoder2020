@@ -1,21 +1,34 @@
-## I'm the best coder! Challenge 2020
+# I'm the best coder! Challenge 2020
 
-## Init
-```
-$ conda create --name shopee python=3.7.9
-$ conda deactivate && conda activate shopee
-$ pip install poetry
-$ git clone https://github.com/allenyummy/ImBestCoder2020.git
-$ poetry install
-```
 
-## Modify or Add package
+# 專案目錄
 ```
-$ vim pyproject.toml
-$ poetry update
-$ poetry export --without-hashes -f requirements.txt -o requirements.txt
-```
+IMBESTCODER2020
+├── data/ 
+|     ├── csv2sql.py
+|     ├── login.csv
+|     ├── purchase_detail.csv
+|     ├── submission.csv
+|     ├── user_info.csv
+|     └── user_label_train.csv        
+├── output/     
+|     ├── demo.csv
+|     └── myLog.log
+├── main.py             (entry-point)
+├── utils.py            
+└── shopee.db          
 
-```
-$ hello world
-```
+```  
+# 版本資訊
+
+# 注意事項
+1. 請先按照子母目錄結構安排.csv 路徑
+2. 設置工作路徑為imbestcoder2020
+3. 執行 csv2sql.py建立shopee.db
+4. 執行主程式 main.py
+5. 查看 log file檢查執行狀況
+6. 確定 demo.csv 為正確輸出格式及可上傳
+
+
+# 開發工具
+* sqlite3: python 3.6版本以上應該會自帶
